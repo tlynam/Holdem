@@ -1,0 +1,238 @@
+body {
+    background-color:gray;
+    position: absolute;
+}
+
+#room {
+    position: absolute;
+}
+
+#table {
+    border-radius: 40%;
+    width: 1000px;
+    height: 600px;
+    left: 150px;
+    top: 150px;
+    background: green;
+    border: 10px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+#pot {
+    position: absolute;
+    left: 430px;
+    top: 180px;
+}
+
+#board {
+    position: absolute;
+    left: 250px;
+    top: 220px;
+    width: 500px;
+    height: 150px;
+    border: 2px dashed gray;
+}
+
+.hole_cards {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    top: 30px;
+}
+
+#hole_cards_text {
+    top: -1px;
+    text-align: center;
+    left: 50px;
+}
+
+#hole_card1 {
+}
+
+#hole_card2 {
+    left: 100px;
+}
+
+.action_buttons {
+    left: 1200px;
+    position: absolute;
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+    background-color:#77d42a;
+    -webkit-border-top-left-radius:37px;
+    -moz-border-radius-topleft:37px;
+    border-top-left-radius:37px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:37px;
+    -moz-border-radius-bottomright:37px;
+    border-bottom-right-radius:37px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0;
+    border:1px solid #268a16;
+    display:inline-block;
+    color:#306108;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:65px;
+    line-height:65px;
+    width:131px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #aade7c;
+}
+.action_buttons:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+    background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+    background-color:#5cb811;
+}.action_buttons:active {
+    position:relative;
+    top:1px;
+}
+
+#call_check {
+    top: 70px;
+}
+
+#bet_raise {
+    top: 140px;
+}
+
+.bet_slider {
+    position: absolute;
+    left: 1130px;
+}
+
+#slider-vertical {
+    position: absolute;
+    height: 150px;
+    right: 10px;
+    top: 50px;
+}
+
+ #amount {
+    width: 60px;
+ }
+
+.card {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    top: 10px;
+}
+
+#card1 {
+    left: 10px;
+}
+
+#card2 {
+    left: 105px;
+}
+
+#card3 {
+    left: 200px;
+}
+
+#card4 {
+    left: 295px;
+}
+
+#card5 {
+    left: 390px;
+}
+
+.seat {
+    width: 100px;
+    height: 80px;
+    background: brown;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    position: absolute;
+    box-shadow: 0px 0px 0px 2pt black;
+    text-align: center;
+    line-height: 90px;
+    z-index: 2;
+}
+
+.seatleg {
+    position: absolute;
+    border-bottom: 60px solid brown;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 40px;
+}
+
+#seat1 {
+    top: -70px;
+    left: -40px;
+}
+
+#seat_leg1 {
+    left: 55px;
+    top: 500px;
+    width: 20px;
+}
+
+#seat2 {
+    top: -70px;
+    left: -30px;
+}
+
+#seat_leg2 {
+    left: 400px;
+    top: 120px;
+}
+
+#seat3 {
+    top: -70px;
+    left: -30px;
+}
+
+#seat_leg3 {
+    left: 770px;
+    top: 120px;
+}
+
+#seat4 {
+    top: -70px;
+    left: -40px;
+}
+
+#seat_leg4 {
+    left: 1185px;
+    top: 500px;
+    width: 20px;
+}
+
+#seat5 {
+    top: -70px;
+    left: -30px;
+}
+
+#seat_leg5 {
+    left: 400px;
+    top: 800px;
+}
+
+#seat6 {
+    top: -70px;
+    left: -30px;
+}
+
+#seat_leg6 {
+    left: 770px;
+    top: 800px;
+}

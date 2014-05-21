@@ -1,0 +1,7 @@
+
+model has many, belongs to
+
+rails generate scaffold Game name:string button:integer action:integer last_to_act:integer deck:string board:string pot:integer current_bet:integer big_blind:integer small_blind:integer
+
+rails generate scaffold Player username:string gravatar_url:string seat:integer chips:integer cards:string live_hand:boolean action:boolean
+

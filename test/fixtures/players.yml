@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  gravatar_url: MyString
+  seat: 1
+  chips: 1
+  cards: MyString
+  live_hand: false
+  action: false
+
+two:
+  username: MyString
+  gravatar_url: MyString
+  seat: 1
+  chips: 1
+  cards: MyString
+  live_hand: false
+  action: false

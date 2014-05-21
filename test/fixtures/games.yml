@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  button: 1
+  action: 1
+  last_to_act: 1
+  deck: MyString
+  board: MyString
+  pot: 1
+  current_bet: 1
+  big_blind: 1
+  small_blind: 1
+
+two:
+  name: MyString
+  button: 1
+  action: 1
+  last_to_act: 1
+  deck: MyString
+  board: MyString
+  pot: 1
+  current_bet: 1
+  big_blind: 1
+  small_blind: 1

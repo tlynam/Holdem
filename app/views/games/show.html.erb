@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @game.name %>
+</p>
+
+<p>
+  <strong>Button:</strong>
+  <%= @game.button %>
+</p>
+
+<p>
+  <strong>Action:</strong>
+  <%= @game.action %>
+</p>
+
+<p>
+  <strong>Last to act:</strong>
+  <%= @game.last_to_act %>
+</p>
+
+<p>
+  <strong>Deck:</strong>
+  <%= @game.deck %>
+</p>
+
+<p>
+  <strong>Board:</strong>
+  <%= @game.board %>
+</p>
+
+<p>
+  <strong>Pot:</strong>
+  <%= @game.pot %>
+</p>
+
+<p>
+  <strong>Current bet:</strong>
+  <%= @game.current_bet %>
+</p>
+
+<p>
+  <strong>Big blind:</strong>
+  <%= @game.big_blind %>
+</p>
+
+<p>
+  <strong>Small blind:</strong>
+  <%= @game.small_blind %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>
