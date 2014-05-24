@@ -1,4 +1,12 @@
-<p id="notice"><%= notice %></p>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="table.css">
+  <link rel="stylesheet" href="jquery-ui.css">
+  <script src="jquery-1.10.2.js"></script>
+  <script src="jquery-ui.js"></script>
+</head>
+<body>
 
 <div id="room">
   <div class="action_buttons" id="fold">Fold</div>
@@ -23,58 +31,6 @@
   <div class="hole_cards" id="hole_cards_text">Hole Cards</div>
   <object type="image/svg+xml" data="2C.svg" class="hole_cards" id="hole_card1" ></object>
   <object type="image/svg+xml" data="2C.svg" class="hole_cards" id="hole_card2" ></object>
-  <p>
-    <strong>Name:</strong>
-    <%= @game.name %>
-  </p>
-
-  <p>
-    <strong>Button:</strong>
-    <%= @game.button %>
-  </p>
-
-  <p>
-    <strong>Action:</strong>
-    <%= @game.action %>
-  </p>
-
-  <p>
-    <strong>Last to act:</strong>
-    <%= @game.last_to_act %>
-  </p>
-
-  <p>
-    <strong>Deck:</strong>
-    <%= @game.deck %>
-  </p>
-
-  <p>
-    <strong>Board:</strong>
-    <%= @game.board %>
-  </p>
-
-  <p>
-    <strong>Pot:</strong>
-    <%= @game.pot %>
-  </p>
-
-  <p>
-    <strong>Current bet:</strong>
-    <%= @game.current_bet %>
-  </p>
-
-  <p>
-    <strong>Big blind:</strong>
-    <%= @game.big_blind %>
-  </p>
-
-  <p>
-    <strong>Small blind:</strong>
-    <%= @game.small_blind %>
-  </p>
-  <%= link_to 'Edit', edit_game_path(@game) %> |
-  <%= link_to 'Back', games_path %>
-
 </div>
 
 <div class="bet_slider">
@@ -82,9 +38,9 @@
   <input type="text" id="amount">
   <div id="slider-vertical"></div>
 </div>
+</body>
 
-
-
+  
 <script>
 $(function() {
   $( "#slider-vertical" ).slider({
@@ -99,4 +55,4 @@ $(function() {
   });
   $( "#amount" ).val( $( "#slider-vertical" ).slider( "value" ) );
 });
-</script> 
+</script>

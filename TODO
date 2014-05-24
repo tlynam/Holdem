@@ -1,3 +1,6 @@
+root shows games index
+can click join game
+
 
 model has many, belongs to
 
