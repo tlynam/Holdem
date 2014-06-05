@@ -1,6 +1,17 @@
+resize svg.  Document Properties -> Resize Document button
+
 root shows games index
+setup player registration
+choose icon with hover sound
 can click join game
 
+seed profile picture links
+profile_pictures image
+
+player field for image
+
+whoever wins a hand, their icon's sound plays
+option to mute sounds
 
 model has many, belongs to
 
