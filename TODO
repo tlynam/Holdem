@@ -1,4 +1,5 @@
-resize svg.  Document Properties -> Resize Document button
+remove old register views
+
 
 root shows games index
 setup player registration
@@ -19,3 +20,7 @@ rails generate scaffold Game name:string button:integer action:integer last_to_a
 
 rails generate scaffold Player username:string gravatar_url:string seat:integer chips:integer cards:string live_hand:boolean action:boolean
 
+
+complete:
+resize svg.  Document Properties -> Resize Document button
+remove height/width in svg document

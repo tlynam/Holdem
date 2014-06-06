@@ -8,16 +8,67 @@
     <%= f.text_field :username %>
   </div>
 
+  Pick your avatar
   <table>
     <tr>
-      <%= radio_button_tag(:avatar, "Turtle") %>
-      <%= label_tag(:turtle) %>
-      <%= image_tag "avatars/turtle.svg" %>
+      <td class="avatar_selection">
+        <label for="avatar_turtle">
+          <%= image_tag "avatars/turtle.svg", size: "100" %> 
+          <%= radio_button_tag(:avatar, "turtle", :checked => true) %> 
+          Turtle
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_hat_owl">
+          <%= image_tag "avatars/hat_owl.svg", size: "100" %>  
+          <%= radio_button_tag(:avatar, "hat_owl") %>
+          Hat Owl
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_teddy_bear">
+          <%= image_tag "avatars/teddy_bear.svg", size: "100" %>  
+          <%= radio_button_tag(:avatar, "teddy_bear") %>
+          Teddy Bear
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_grim_reaper">
+          <%= image_tag "avatars/grim_reaper.svg", size: "100" %>  
+          <%= radio_button_tag(:avatar, "grim_reaper") %>
+          Grim Reaper
+        </label>
+      </td>
     </tr>
     <tr>
-      <%= radio_button_tag(:avatar, "Fox") %>
-      <%= label_tag(:fox) %>
-      <%= image_tag "avatars/fox.svg" %>
+      <td class="avatar_selection">
+        <label for="avatar_fox">
+          <%= image_tag "avatars/fox.svg", size: "100" %>
+          <%= radio_button_tag(:avatar, "fox") %>
+          Fox
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_short_owl">
+          <%= image_tag "avatars/short_owl.svg", size: "100" %>
+          <%= radio_button_tag(:avatar, "short_owl") %>
+          Short Owl
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_cool_cat">
+          <%= image_tag "avatars/cool_cat.svg", size: "100" %>
+          <%= radio_button_tag(:avatar, "cool_cat") %>
+          Cool Cat
+        </label>
+      </td>
+      <td class="avatar_selection">
+        <label for="avatar_tall_owl">
+          <%= image_tag "avatars/tall_owl.svg", size: "100" %>
+          <%= radio_button_tag(:avatar, "tall_owl") %>
+          Tall Owl
+        </label>
+      </td>
     </tr>
   </table>
 
@@ -31,8 +82,10 @@
   <div><%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
+  </br>
 
   <div><%= f.submit "Sign up" %></div>
+  </br>
 <% end %>
 
 <%= render "devise/shared/links" %>
