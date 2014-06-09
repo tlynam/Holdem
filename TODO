@@ -1,4 +1,11 @@
+tests
+menu showing login/logout/register
+mailer for password resets
+setup heroku
+setup sendgrid
+setup env vars
 
+twitter bootstrap.  use dark theme
 
 root shows games index
 setup player registration
