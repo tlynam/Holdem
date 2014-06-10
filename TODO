@@ -30,3 +30,21 @@ rails generate scaffold Player username:string gravatar_url:string seat:integer 
 complete:
 resize svg.  Document Properties -> Resize Document button
 remove height/width in svg document
+
+___
+side bar in application layout took out
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Sidebar</li>
+              <li><%= link_to "Link1", "/path1"  %></li>
+              <li><%= link_to "Link2", "/path2"  %></li>
+              <li><%= link_to "Link3", "/path3"  %></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+
+      <footer>
+        <p></p>
+      </footer>
